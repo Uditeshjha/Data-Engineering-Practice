@@ -1,0 +1,6 @@
+2025-09-16 14:23:24,712 - ERROR - An error occurred while dividing!
+Traceback (most recent call last):
+  File "C:\Uditesh Jha\Data Engineering\Edukron\Exception Handling Practice\temp.py", line 11, in <module>
+    print("Division result:", a / b)
+                              ~~^~~
+ZeroDivisionError: division by zero
