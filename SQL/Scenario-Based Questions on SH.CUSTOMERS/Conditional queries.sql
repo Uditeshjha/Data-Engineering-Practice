@@ -106,4 +106,5 @@ SELECT
 FROM sh.customers c
 JOIN sh.countries co ON c.country_id = co.country_id
 GROUP BY co.country_name, c.cust_state_province
+
 ORDER BY co.country_name, c.cust_state_province;
